@@ -469,6 +469,8 @@ void parse_html(FILE *html_file, FILE *store_file)
 
     while (1)
     {
+        /* TODO: refactor code */
+        
         c = fgetc(html_file);
 
         if ( c == EOF ) break;
